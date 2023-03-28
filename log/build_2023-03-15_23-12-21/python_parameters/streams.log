@@ -1,0 +1,38 @@
+[0.699s] Invoking command in '/home/denys/ros2_ws/src/python_parameters': PYTHONPATH=/home/denys/ros2_ws/src/build/python_parameters/prefix_override:/home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/denys/ros2_ws/src/build/python_parameters/build install --record /home/denys/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed
+[0.887s] running egg_info
+[0.890s] creating ../build/python_parameters/python_parameters.egg-info
+[0.891s] writing ../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[0.891s] writing entry points to ../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[0.892s] writing requirements to ../build/python_parameters/python_parameters.egg-info/requires.txt
+[0.892s] writing top-level names to ../build/python_parameters/python_parameters.egg-info/top_level.txt
+[0.892s] writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.895s] reading manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] creating /home/denys/ros2_ws/src/build/python_parameters/build
+[0.897s] creating /home/denys/ros2_ws/src/build/python_parameters/build/lib
+[0.897s] creating /home/denys/ros2_ws/src/build/python_parameters/build/lib/python_parameters
+[0.897s] copying python_parameters/__init__.py -> /home/denys/ros2_ws/src/build/python_parameters/build/lib/python_parameters
+[0.897s] copying python_parameters/python_parameters_node.py -> /home/denys/ros2_ws/src/build/python_parameters/build/lib/python_parameters
+[0.897s] running install
+[0.897s] running install_lib
+[0.898s] creating /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.898s] copying /home/denys/ros2_ws/src/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.898s] copying /home/denys/ros2_ws/src/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[0.898s] byte-compiling /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[0.899s] byte-compiling /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[0.899s] running install_data
+[0.900s] creating /home/denys/ros2_ws/src/install/python_parameters/share/ament_index
+[0.900s] creating /home/denys/ros2_ws/src/install/python_parameters/share/ament_index/resource_index
+[0.900s] creating /home/denys/ros2_ws/src/install/python_parameters/share/ament_index/resource_index/packages
+[0.900s] copying resource/python_parameters -> /home/denys/ros2_ws/src/install/python_parameters/share/ament_index/resource_index/packages
+[0.900s] copying package.xml -> /home/denys/ros2_ws/src/install/python_parameters/share/python_parameters
+[0.901s] copying launch/python_parameters_launch.py -> /home/denys/ros2_ws/src/install/python_parameters/share/python_parameters
+[0.901s] running install_egg_info
+[0.902s] Copying ../build/python_parameters/python_parameters.egg-info to /home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.957s] Installing minimal_param_node script to /home/denys/ros2_ws/src/install/python_parameters/lib/python_parameters
+[0.958s] writing list of installed files to '/home/denys/ros2_ws/src/build/python_parameters/install.log'
+[0.987s] Invoked command in '/home/denys/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/python_parameters/prefix_override:/home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/denys/ros2_ws/src/build/python_parameters/build install --record /home/denys/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed

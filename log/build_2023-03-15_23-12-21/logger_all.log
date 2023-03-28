@@ -1,0 +1,263 @@
+[0.313s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.314s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f52ed3d10f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f52ed3d0b80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f52ed3d0b80>>)
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/denys/ros2_ws/src'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2' with type 'ros.ament_python' and name 'lab2'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/denys/ros2_ws/install
+[0.379s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denys/ros2_ws/src/build/lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denys/ros2_ws/src/install/lab2', 'merge_install': False, 'path': '/home/denys/ros2_ws/src/lab2', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denys/ros2_ws/src/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denys/ros2_ws/src/install/my_robot_controller', 'merge_install': False, 'path': '/home/denys/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denys/ros2_ws/src/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denys/ros2_ws/src/install/py_srvcli', 'merge_install': False, 'path': '/home/denys/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denys/ros2_ws/src/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denys/ros2_ws/src/install/python_parameters', 'merge_install': False, 'path': '/home/denys/ros2_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.444s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.447s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.447s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denys/ros2_ws/src/lab2' with build type 'ament_python'
+[0.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'ament_prefix_path')
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/ament_prefix_path.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denys/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[0.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.598s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denys/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[0.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denys/ros2_ws/src/lab2'
+[0.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.175s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denys/ros2_ws/src/my_robot_controller'
+[1.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.438s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denys/ros2_ws/src/py_srvcli'
+[1.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denys/ros2_ws/src/py_srvcli': PYTHONPATH=/home/denys/ros2_ws/src/build/py_srvcli/prefix_override:/home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/denys/ros2_ws/src/build/py_srvcli/build install --record /home/denys/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed
+[2.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denys/ros2_ws/src/lab2': PYTHONPATH=/home/denys/ros2_ws/src/build/lab2/prefix_override:/home/denys/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /home/denys/ros2_ws/src/build/lab2/build install --record /home/denys/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denys/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/denys/ros2_ws/src/build/my_robot_controller/prefix_override:/home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/denys/ros2_ws/src/build/my_robot_controller/build install --record /home/denys/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[2.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denys/ros2_ws/src/lab2' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/lab2/prefix_override:/home/denys/ros2_ws/src/install/lab2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab2 build --build-base /home/denys/ros2_ws/src/build/lab2/build install --record /home/denys/ros2_ws/src/build/lab2/install.log --single-version-externally-managed
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2' for CMake module files
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2' for CMake config files
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2/lib'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2/bin'
+[2.565s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2/lib/pkgconfig/lab2.pc'
+[2.565s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2/lib/python3.10/site-packages'
+[2.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2', 'pythonpath')
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.ps1'
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.dsv'
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/lab2/share/lab2/hook/pythonpath.sh'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/lab2/bin'
+[2.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2)
+[2.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/lab2/share/lab2/package.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denys/ros2_ws/src/install/lab2/share/lab2/package.dsv'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/lab2/share/lab2/package.sh'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/lab2/share/lab2/package.bash'
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/lab2/share/lab2/package.zsh'
+[2.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denys/ros2_ws/src/install/lab2/share/colcon-core/packages/lab2)
+[2.581s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/denys/ros2_ws/src/python_parameters' with build type 'ament_python'
+[2.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[2.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[2.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli' for CMake module files
+[2.605s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli' for CMake config files
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli/lib'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli/bin'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages'
+[2.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/py_srvcli/bin'
+[2.608s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.ps1'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.dsv'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.sh'
+[2.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.bash'
+[2.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.zsh'
+[2.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denys/ros2_ws/src/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[2.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denys/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/py_srvcli/prefix_override:/home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/denys/ros2_ws/src/build/py_srvcli/build install --record /home/denys/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller' for CMake module files
+[2.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denys/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/my_robot_controller/prefix_override:/home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/denys/ros2_ws/src/build/my_robot_controller/build install --record /home/denys/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller' for CMake config files
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller/lib'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller/bin'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages'
+[2.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[2.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[2.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/my_robot_controller/bin'
+[2.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.sh'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.bash'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[2.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denys/ros2_ws/src/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[2.908s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/denys/ros2_ws/src/python_parameters'
+[2.909s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denys/ros2_ws/src/python_parameters': PYTHONPATH=/home/denys/ros2_ws/src/build/python_parameters/prefix_override:/home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/denys/ros2_ws/src/build/python_parameters/build install --record /home/denys/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters' for CMake module files
+[3.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denys/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/python_parameters/prefix_override:/home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/denys/ros2_ws/src/build/python_parameters/build install --record /home/denys/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters' for CMake config files
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters/lib'
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters/bin'
+[3.574s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages'
+[3.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[3.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/denys/ros2_ws/src/install/python_parameters/bin'
+[3.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/package.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/package.dsv'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/package.sh'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/package.bash'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/denys/ros2_ws/src/install/python_parameters/share/python_parameters/package.zsh'
+[3.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denys/ros2_ws/src/install/python_parameters/share/colcon-core/packages/python_parameters)
+[3.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.679s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.680s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denys/ros2_ws/src/install/local_setup.ps1'
+[3.683s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denys/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.686s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denys/ros2_ws/src/install/setup.ps1'
+[3.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denys/ros2_ws/src/install/local_setup.sh'
+[3.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denys/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denys/ros2_ws/src/install/setup.sh'
+[3.697s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denys/ros2_ws/src/install/local_setup.bash'
+[3.698s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denys/ros2_ws/src/install/setup.bash'
+[3.723s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denys/ros2_ws/src/install/local_setup.zsh'
+[3.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denys/ros2_ws/src/install/setup.zsh'

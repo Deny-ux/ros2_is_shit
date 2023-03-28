@@ -1,0 +1,49 @@
+[1.590s] Invoking command in '/home/denys/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/denys/ros2_ws/src/build/my_robot_controller/prefix_override:/home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/denys/ros2_ws/src/build/my_robot_controller/build install --record /home/denys/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed
+[1.887s] running egg_info
+[1.887s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[1.887s] writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.888s] writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.888s] writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.888s] writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.888s] writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.902s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.907s] reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.912s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.913s] running build
+[1.913s] running build_py
+[1.917s] creating /home/denys/ros2_ws/src/build/my_robot_controller/build
+[1.917s] creating /home/denys/ros2_ws/src/build/my_robot_controller/build/lib
+[1.917s] creating /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.917s] copying my_robot_controller/draw_circle.py -> /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.917s] copying my_robot_controller/__init__.py -> /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.926s] copying my_robot_controller/my_first_node.py -> /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.926s] copying my_robot_controller/pose_subsriber.py -> /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.927s] copying my_robot_controller/turtle_controller.py -> /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[1.929s] running install
+[1.929s] running install_lib
+[1.931s] creating /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.932s] copying /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.932s] copying /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.933s] copying /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.933s] copying /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/pose_subsriber.py -> /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.933s] copying /home/denys/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.934s] byte-compiling /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[1.936s] byte-compiling /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.949s] byte-compiling /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[1.949s] byte-compiling /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subsriber.py to pose_subsriber.cpython-310.pyc
+[1.949s] byte-compiling /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[1.949s] running install_data
+[1.950s] creating /home/denys/ros2_ws/src/install/my_robot_controller/share/ament_index
+[1.951s] creating /home/denys/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[1.951s] creating /home/denys/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.951s] copying resource/my_robot_controller -> /home/denys/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.952s] copying package.xml -> /home/denys/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[1.953s] running install_egg_info
+[1.960s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.976s] running install_scripts
+[2.026s] Installing draw_circle script to /home/denys/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.029s] Installing pose_subscriber script to /home/denys/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.030s] Installing test_node script to /home/denys/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.031s] Installing turtle_controller script to /home/denys/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.032s] writing list of installed files to '/home/denys/ros2_ws/src/build/my_robot_controller/install.log'
+[2.121s] Invoked command in '/home/denys/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/my_robot_controller/prefix_override:/home/denys/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/denys/ros2_ws/src/build/my_robot_controller/build install --record /home/denys/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed

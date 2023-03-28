@@ -1,0 +1,41 @@
+[1.478s] Invoking command in '/home/denys/ros2_ws/src/py_srvcli': PYTHONPATH=/home/denys/ros2_ws/src/build/py_srvcli/prefix_override:/home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/denys/ros2_ws/src/build/py_srvcli/build install --record /home/denys/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed
+[1.770s] running egg_info
+[1.774s] creating ../build/py_srvcli/py_srvcli.egg-info
+[1.789s] writing ../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.798s] writing dependency_links to ../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.798s] writing entry points to ../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.798s] writing requirements to ../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.798s] writing top-level names to ../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.798s] writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.814s] reading manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.819s] writing manifest file '../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.828s] running build
+[1.828s] running build_py
+[1.828s] creating /home/denys/ros2_ws/src/build/py_srvcli/build
+[1.828s] creating /home/denys/ros2_ws/src/build/py_srvcli/build/lib
+[1.828s] creating /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli
+[1.837s] copying py_srvcli/client_member_function.py -> /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli
+[1.841s] copying py_srvcli/__init__.py -> /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli
+[1.841s] copying py_srvcli/service_member_function.py -> /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli
+[1.842s] running install
+[1.844s] running install_lib
+[1.859s] creating /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.860s] copying /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.870s] copying /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.871s] copying /home/denys/ros2_ws/src/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.871s] byte-compiling /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[1.871s] byte-compiling /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[1.871s] byte-compiling /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[1.871s] running install_data
+[1.871s] creating /home/denys/ros2_ws/src/install/py_srvcli/share/ament_index
+[1.871s] creating /home/denys/ros2_ws/src/install/py_srvcli/share/ament_index/resource_index
+[1.871s] creating /home/denys/ros2_ws/src/install/py_srvcli/share/ament_index/resource_index/packages
+[1.871s] copying resource/py_srvcli -> /home/denys/ros2_ws/src/install/py_srvcli/share/ament_index/resource_index/packages
+[1.871s] copying package.xml -> /home/denys/ros2_ws/src/install/py_srvcli/share/py_srvcli
+[1.871s] running install_egg_info
+[1.871s] Copying ../build/py_srvcli/py_srvcli.egg-info to /home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.887s] running install_scripts
+[1.936s] Installing client script to /home/denys/ros2_ws/src/install/py_srvcli/lib/py_srvcli
+[1.937s] Installing service script to /home/denys/ros2_ws/src/install/py_srvcli/lib/py_srvcli
+[1.940s] writing list of installed files to '/home/denys/ros2_ws/src/build/py_srvcli/install.log'
+[2.011s] Invoked command in '/home/denys/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/denys/ros2_ws/src/build/py_srvcli/prefix_override:/home/denys/ros2_ws/src/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/denys/ros2_ws/src/build/py_srvcli/build install --record /home/denys/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed

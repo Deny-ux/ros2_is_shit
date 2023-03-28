@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_spawner = lab2.turtles_spawner:main
+

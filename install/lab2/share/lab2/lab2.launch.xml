@@ -1,0 +1,10 @@
+<launch>
+  <arg name="second_name" default="turtle2"/>
+  <arg name="third_name" default="turtle3"/>
+
+  <node pkg="turtlesim" exec="turtlesim_node" name="turtlesim"/>
+  <node pkg="lab2" exec="turtle_spawner" name="turtles_spawner">
+    <param name="second_name" value="$(var second_name)"/>
+    <param name="third_name" value="$(var third_name)"/>
+  </node>
+</launch>
